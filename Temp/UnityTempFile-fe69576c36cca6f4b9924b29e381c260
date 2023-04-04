@@ -1,0 +1,339 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-nostdlib
+-r:Library/ScriptAssemblies/Cinemachine.dll
+-r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+-r:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+-r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+-r:Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+-r:Library/ScriptAssemblies/PackageManagerAssembly.dll
+-r:Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+-r:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.FacebookModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/Unity.Locator.dll"
+-r:Library/FacebookSDK/Facebook.Unity.Settings.dll
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"C:/Users/Maurice TINDO/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll"
+-r:"C:/Users/Maurice TINDO/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_2_5
+-define:UNITY_2018_2
+-define:UNITY_2018
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_VIDEO
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_POST_PROCESSING_STACK_V2
+Assets/2DGamekit/Scripts/AI/BT.cs
+Assets/2DGamekit/Scripts/AI/GunnerBeam.cs
+Assets/2DGamekit/Scripts/AI/GunnerBeamController.cs
+Assets/2DGamekit/Scripts/AI/GunnerProjectile.cs
+Assets/2DGamekit/Scripts/AI/InstantiateObject.cs
+Assets/2DGamekit/Scripts/AI/MissileGolem.cs
+Assets/2DGamekit/Scripts/AI/SendSignal.cs
+Assets/2DGamekit/Scripts/Audio/AudioSurface.cs
+Assets/2DGamekit/Scripts/Audio/BackgroundMusicPlayer.cs
+Assets/2DGamekit/Scripts/Audio/MixerSliderLink.cs
+Assets/2DGamekit/Scripts/Audio/RandomAudioPlayer.cs
+Assets/2DGamekit/Scripts/Character/MonoBehaviours/Bullet.cs
+Assets/2DGamekit/Scripts/Character/MonoBehaviours/BulletPool.cs
+Assets/2DGamekit/Scripts/Character/MonoBehaviours/CharacterController2D.cs
+Assets/2DGamekit/Scripts/Character/MonoBehaviours/Damageable.cs
+Assets/2DGamekit/Scripts/Character/MonoBehaviours/Damager.cs
+Assets/2DGamekit/Scripts/Character/MonoBehaviours/EnemyBehaviour.cs
+Assets/2DGamekit/Scripts/Character/MonoBehaviours/InputComponent.cs
+Assets/2DGamekit/Scripts/Character/MonoBehaviours/PlayerCharacter.cs
+Assets/2DGamekit/Scripts/Character/MonoBehaviours/PlayerInput.cs
+Assets/2DGamekit/Scripts/Character/MonoBehaviours/SpitterBT.cs
+Assets/2DGamekit/Scripts/Character/MonoBehaviours/VFXController.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Enemies/ChomperAttackSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Enemies/ChomperDeathSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Enemies/ChomperPatrolSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Enemies/ChomperRunToTargetSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/AirborneMeleeAttackSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/AirborneSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/AirborneWithGunSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/CrouchSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/CrouchWithGunSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/DeadLandingSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/DeadSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/HurtSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/LocomotionSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/LocomotionWithGunSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/MeleeAttackSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/PushingSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/RespawnSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/SceneLinkedSMB.cs
+Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/TriggerVFX.cs
+Assets/2DGamekit/Scripts/Core/CameraShaker.cs
+Assets/2DGamekit/Scripts/Core/Checkpoint.cs
+Assets/2DGamekit/Scripts/Core/InteractOnButton.cs
+Assets/2DGamekit/Scripts/Core/InteractOnButton2D.cs
+Assets/2DGamekit/Scripts/Core/InteractOnCollision.cs
+Assets/2DGamekit/Scripts/Core/InteractOnCollision2D.cs
+Assets/2DGamekit/Scripts/Core/InteractOnTrigger.cs
+Assets/2DGamekit/Scripts/Core/InteractOnTrigger2D.cs
+Assets/2DGamekit/Scripts/Core/InventoryController.cs
+Assets/2DGamekit/Scripts/Core/InventoryItem.cs
+Assets/2DGamekit/Scripts/Core/LayerMaskExtensions.cs
+Assets/2DGamekit/Scripts/Core/ObjectPool.cs
+Assets/2DGamekit/Scripts/Core/TimedDisabling.cs
+Assets/2DGamekit/Scripts/Effect/BossDoorStateManager.cs
+Assets/2DGamekit/Scripts/Effect/DropShadow.cs
+Assets/2DGamekit/Scripts/Effect/Grenade.cs
+Assets/2DGamekit/Scripts/Effect/GunnerLightning.cs
+Assets/2DGamekit/Scripts/Effect/GunnerShieldEffect.cs
+Assets/2DGamekit/Scripts/Effect/SpriteColorChange.cs
+Assets/2DGamekit/Scripts/Effect/WaterArea.cs
+Assets/2DGamekit/Scripts/Localization/OriginalPhrases.cs
+Assets/2DGamekit/Scripts/Localization/TranslatedPhrases.cs
+Assets/2DGamekit/Scripts/Localization/TranslatedText.cs
+Assets/2DGamekit/Scripts/Localization/Translator.cs
+Assets/2DGamekit/Scripts/Objects/EnemySpawner.cs
+Assets/2DGamekit/Scripts/Objects/HealthPickup.cs
+Assets/2DGamekit/Scripts/Objects/HubDoor.cs
+Assets/2DGamekit/Scripts/Objects/ObjectPositionResetter.cs
+Assets/2DGamekit/Scripts/Objects/Platforms/FallthroughReseter.cs
+Assets/2DGamekit/Scripts/Objects/Platforms/MovingPlatform.cs
+Assets/2DGamekit/Scripts/Objects/Platforms/PlatformCatcher.cs
+Assets/2DGamekit/Scripts/Objects/Pushables/PressurePad.cs
+Assets/2DGamekit/Scripts/Objects/Pushables/Pushable.cs
+Assets/2DGamekit/Scripts/Objects/WeaponPickup.cs
+Assets/2DGamekit/Scripts/SceneManagement/CharacterStateSetter.cs
+Assets/2DGamekit/Scripts/SceneManagement/GameObjectTeleporter.cs
+Assets/2DGamekit/Scripts/SceneManagement/IDataPersister.cs
+Assets/2DGamekit/Scripts/SceneManagement/PersistentDataManager.cs
+Assets/2DGamekit/Scripts/SceneManagement/SavedData.cs
+Assets/2DGamekit/Scripts/SceneManagement/SceneController.cs
+Assets/2DGamekit/Scripts/SceneManagement/SceneControllerWrapper.cs
+Assets/2DGamekit/Scripts/SceneManagement/SceneNameAttribute.cs
+Assets/2DGamekit/Scripts/SceneManagement/SceneTransitionDestination.cs
+Assets/2DGamekit/Scripts/SceneManagement/ScreenFader.cs
+Assets/2DGamekit/Scripts/SceneManagement/TransitionPoint.cs
+Assets/2DGamekit/Scripts/Timeline/DirectorTrigger.cs
+Assets/2DGamekit/Scripts/Timeline/ScrollingText/ScrollingTextBehaviour.cs
+Assets/2DGamekit/Scripts/Timeline/ScrollingText/ScrollingTextClip.cs
+Assets/2DGamekit/Scripts/Timeline/ScrollingText/ScrollingTextMixerBehaviour.cs
+Assets/2DGamekit/Scripts/Timeline/ScrollingText/ScrollingTextTrack.cs
+Assets/2DGamekit/Scripts/UI/HealthUI.cs
+Assets/2DGamekit/Scripts/UI/InputDisplayUI.cs
+Assets/2DGamekit/Scripts/UI/KeyUI.cs
+Assets/2DGamekit/Scripts/UI/MenuActivityController.cs
+Assets/2DGamekit/Scripts/UI/OptionUI.cs
+Assets/2DGamekit/Scripts/UI/StartUI.cs
+Assets/2DGamekit/Scripts/Utility/AutoCameraSetup.cs
+Assets/2DGamekit/Scripts/Utility/DialogueCanvasController.cs
+Assets/2DGamekit/Scripts/Utility/Helpers.cs
+Assets/2DGamekit/Scripts/Utility/LocalTransformDuplicator.cs
+Assets/2DGamekit/Scripts/Utility/OpenURL.cs
+Assets/2DGamekit/Scripts/Utility/PhysicsHelper.cs
+Assets/2DGamekit/Scripts/Utility/PrewarmDirector.cs
+Assets/2DGamekit/Scripts/Utility/PriorityQueue.cs
+Assets/2DGamekit/Scripts/Utility/RuleTile.cs
+Assets/2DGamekit/Scripts/Utility/SetMaterialRenderQueue.cs
+Assets/2DGamekit/Scripts/Utility/StartScreenSpriteOffsetter.cs
+Assets/2DGamekit/Scripts/Utility/UIAutoscroll.cs
+Assets/2DGamekit/Scripts/Utility/VisibleBubbleUp.cs
+Assets/2DGamekit/TutorialInfo/Scripts/Readme.cs
+Assets/2DGamekit/Utilities/CinemachinePostProcessingV2/CinemachinePostProcessing.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/LightControl/LightControlBehaviour.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/LightControl/LightControlClip.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/LightControl/LightControlMixerBehaviour.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/LightControl/LightControlTrack.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/NavMeshAgentControl/NavMeshAgentControlBehaviour.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/NavMeshAgentControl/NavMeshAgentControlClip.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/NavMeshAgentControl/NavMeshAgentControlMixerBehaviour.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/NavMeshAgentControl/NavMeshAgentControlTrack.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/ScreenFader/ScreenFaderBehaviour.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/ScreenFader/ScreenFaderClip.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/ScreenFader/ScreenFaderMixerBehaviour.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/ScreenFader/ScreenFaderTrack.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/TextSwitcher/TextSwitcherBehaviour.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/TextSwitcher/TextSwitcherClip.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/TextSwitcher/TextSwitcherMixerBehaviour.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/TextSwitcher/TextSwitcherTrack.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/TimeDilation/TimeDilationBehaviour.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/TimeDilation/TimeDilationClip.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/TimeDilation/TimeDilationMixerBehaviour.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/TimeDilation/TimeDilationTrack.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/TransformTween/TransformTweenBehaviour.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/TransformTween/TransformTweenClip.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/TransformTween/TransformTweenMixerBehaviour.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/TransformTween/TransformTweenTrack.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/Video/VideoPlayableBehaviour.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/Video/VideoSchedulerPlayableBehaviour.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/Video/VideoScriptPlayableAsset.cs
+Assets/2DGamekit/Utilities/DefaultPlayables/Video/VideoScriptPlayableTrack.cs
+"Assets/2DGamekit/Utilities/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs"
+"Assets/2DGamekit/Utilities/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs"
+-lib:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api"
